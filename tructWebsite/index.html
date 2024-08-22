@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--- start of template-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRUCT.Net/home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <div class="top-bar">
+        <span><ion-icon name="call-outline"></ion-icon>(203)-999-9999</span>
+        <ul>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="Transitridersunion"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+    </div>
+    <nav>
+        <div class="logo">
+            <a href=""><img src="images/Transit Riders Union 4 (Logo 4.1) - jason k.png" alt=""></a>
+        </div>
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+    <!--- End of Template for top of pages-->
+    <section>
+        <section class="container">
+            <section>
+                <h1>LATEST NEWS</h1>
+                <img src="#" alt="">
+                <h5>info about news.. <a href="#">link to latest news</a></h5>
+                <button><a href="about.html">Learn More</a></button>    
+            </section>
+            <section>
+                <h1>Past Events</h1>
+                <img src="" alt="">
+                <h5>info on past events</h5>
+                <button><a href="events.html">All Events</a></button>
+            </section>
+        </section>
+        <section class="riders">
+            <h1>TRANSIT RIDERS UNION CT!</h1>
+            <h2>REMEMBER WHEN THE BUSES WERE FARE FREE?</h2>
+            <h3>Governor Ned Lamont ended fare-free busses in April of 2023,
+                resulting in a significant drop in ridership. Lamont and our
+                legislators lack political willpower to deliver adequate
+                equitable and sustainable services to Connecticut
+                communities, despite the urgency of the climate crisis and a
+                large transportation budget surplus for the state.</h3>
+        </section>
+        <section class="transitlogo">
+            <span><img src="#" alt=""></span>
+            <h2>Public Transit Must Be Free And Accessible To All</h2>
+        </section>
+        <h3>Working people, tenants, and all residents of Connecticut
+            deserve public transit that gets them to work, to school, to
+            medical care, and which supports their lives. As transit riders,
+            you have the power to organize with TRUCT and demand a
+            public transit system that works for the people who use it.
+            Join us using the links below and start talking to your fellow
+            transit riders & workers, and other people on your commute.
+            What does fare free transit mean to you?
+            How can our transit rider union fight for transportation
+            equity in Connecticut?</h3><br>
+            <h1 id="sign">SIGN ON, IN SUPPORT TO BECOME A TRUCT MEMBER </h1><br>
+        <section class="footer">
+            <div>
+                <span><a href="https://act.dsausa.org/donate/membership/"><img src="images/CTDSA-Logo.png.webp" alt="img of DSA"></a></span>
+            </div>
+            <div>
+                <a href="https://actionnetwork.org/petitions/transit-riders-for-free-fares-ct?source=direct_link&">Transit Petition</a>
+                <h4>Questions? <span><a href="ecosocialism@ctdsa.org"></a>ecosocialism@ctdsa.org</span></h4>
+            </div>
+        </section>
+    </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(function(){
+        $('.toggle').on('click',function(){
+            if($('.menu').hasClass('active')){
+                $('.menu').removeClass('active')
+                $(this).find('a').html('<ion-icon name="menu-outline"></ion-icon>')
+            }else{
+                $('.menu').addClass('active');
+                $(this).find('a').html('<ion-icon name="close-outline"></ion-icon>')
+            }
+        })
+    })
+</script>
+</body>
+</html>
