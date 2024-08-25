@@ -95,8 +95,28 @@ nav a:hover{
 .riders{
     text-align: center;
 }
+.riders h1{
+    font-size: 6em;
+    text-align: center;
+}
+.riders h2{
+    font-size: 4em;
+}
+.riders h3{
+    font-size: 3em;
+}
 .transitlogo{
     text-align: center;
+    display: flex;
+}
+.transitlogo h2{
+    font-size: 4em;
+}
+.transitlogo + h3{
+    font-size: 3em;
+}
+#sign{
+    font-size: 6em;
 }
 .footer img{
     height: 100px;
@@ -108,4 +128,9 @@ nav a:hover{
 .footer{
     display: flex;
     justify-content: space-evenly;
+}
+
+#spanish img{
+    width: fit-content;
+    height: fit-content;
 }
